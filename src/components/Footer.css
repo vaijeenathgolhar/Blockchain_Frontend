@@ -1,0 +1,31 @@
+/* Reduced glowing effect with softer shadows */
+.neumorphic-sm {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+                -5px -5px 10px rgba(255, 255, 255, 0.05);
+  }
+  
+  .footer-section {
+    background-color: #1F2937;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.15),
+                inset -3px -3px 6px rgba(255, 255, 255, 0.03),
+                3px 3px 8px rgba(0, 0, 0, 0.2),
+                -3px -3px 8px rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-section:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Reduce shadow intensity for smoother 3D effect */
+  .shadow-neumorphic-sm {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25),
+                -10px -10px 15px rgba(255, 255, 255, 0.02);
+  }
+  
+  a:hover {
+    transform: scale(1.02);
+    color: #FFA500;
+  }
+  

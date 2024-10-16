@@ -1,0 +1,36 @@
+/* Custom styles for the contact page with neumorphism and 3D effects */
+.container {
+    background-color: #1F2937; /* Dark background for contrast */
+  }
+  
+  input,
+  textarea {
+    background-color: #2D3748; /* Slightly lighter background */
+    color: #F7FAFC; /* Light text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Padding for input */
+    border-radius: 0.5rem; /* Rounded corners */
+    font-size: 0.875rem; /* Slightly smaller font size */
+    box-shadow: inset 8px 8px 15px #1A202C, inset -8px -8px 15px #4A5568; /* Neumorphism effect */
+  }
+  
+  .input-field:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: inset 4px 4px 8px #1A202C, inset -4px -4px 8px #4A5568; /* Focus effect */
+  }
+  
+  .submit-button {
+    background-color: #ED8936; /* Orange button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 0.5rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1rem; /* Button text size */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .submit-button:hover {
+    background-color: #D69E2E; /* Darker orange on hover */
+  }
+  

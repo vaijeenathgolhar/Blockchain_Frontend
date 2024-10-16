@@ -1,0 +1,16 @@
+/* About.css */
+
+/* Neumorphic design with shadows */
+.neumorphic {
+    background: #e0e5ec;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.neumorphic-hover {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.neumorphic-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 25px 25px 60px #bebebe, -25px -25px 60px #ffffff;
+}
